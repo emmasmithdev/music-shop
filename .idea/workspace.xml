@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c63ba6-5e31-4c5a-ba53-ec20029880f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Drums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Violin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DrumsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ViolinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/Accessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/DrumSticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrumSticksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +54,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DrumsTest">
+  <component name="RunManager" selected="JUnit.DrumSticksTest.canSetPrice">
+    <configuration name="DrumSticksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DrumSticksTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrumSticksTest.canSetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DrumSticksTest" />
+      <option name="METHOD_NAME" value="canSetPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DrumsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,6 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DrumSticksTest.canSetPrice" />
+        <item itemvalue="JUnit.DrumSticksTest" />
         <item itemvalue="JUnit.DrumsTest" />
         <item itemvalue="JUnit.ViolinTest.canPlay" />
         <item itemvalue="JUnit.ViolinTest" />
