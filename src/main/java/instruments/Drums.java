@@ -16,4 +16,8 @@ public class Drums extends Instrument {
     public String play(){
         return "boom tss boom tss";
     }
+
+    public double calculateMarkup(){
+        return getPrice() - getCostPrice();
+    }
 }

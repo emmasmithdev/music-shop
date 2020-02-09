@@ -16,4 +16,8 @@ public class Violin extends Instrument {
     public String play(){
         return "screech screech";
     }
+
+    public double calculateMarkup(){
+        return getPrice() - getCostPrice();
+    }
 }
