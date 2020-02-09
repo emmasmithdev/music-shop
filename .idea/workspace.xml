@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c63ba6-5e31-4c5a-ba53-ec20029880f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/accessories/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DrumsTest.canCalculateMarkup">
-    <configuration name="DrumSticksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DrumSticksTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShopTest">
     <configuration name="DrumSticksTest.canSetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,6 +70,15 @@
       <option name="MAIN_CLASS_NAME" value="DrumsTest" />
       <option name="METHOD_NAME" value="canCalculateMarkup" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.DrumsTest.canCalculateMarkup" />
         <item itemvalue="JUnit.ViolinTest.canCalculateMarkup" />
         <item itemvalue="JUnit.StringsTest" />
         <item itemvalue="JUnit.DrumSticksTest.canSetPrice" />
-        <item itemvalue="JUnit.DrumSticksTest" />
       </list>
     </recent_temporary>
   </component>
